@@ -160,6 +160,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -191,6 +194,8 @@ button{
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -263,18 +268,47 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-style{
 	font-family:Montserrat;
 }
-.h1-style{
-	font-family:Montserrat;
-}
 .h3-style{
 	font-family:Montserrat;
 }
 .h3-4-style{
 	width:100%;
+	font-family:Montserrat;
 }
 .text{
 	font-family:"Montserrat";
 	font-size:20px;
+}
+.h1-bloc-2-style{
+	font-family:Montserrat;
+}
+.h3-bloc-2-style{
+	font-family:Montserrat;
+}
+.h3-bloc-1-style{
+	font-family:Montserrat;
+}
+.h1-bloc-1-style{
+	font-family:Montserrat;
+}
+.h4-style{
+	font-family:Montserrat;
+}
+.border-right{
+	border-style:solid;
+}
+.h1-style{
+	font-family:Montserrat;
+}
+.h1-pricing-style{
+	font-family:Montserrat;
+}
+.pricing-text{
+	font-family:"Montserrat";
+	font-size:18px;
+}
+.card-footer{
+	text-align:center;
 }
 
 /* = Colour
@@ -287,6 +321,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-snow{
 	background-color:#FAFAFA;
+}
+.bgc-white-2{
+	background-color:#FFFFFF;
 }
 
 /* Text colour styles */
